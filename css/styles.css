@@ -199,6 +199,10 @@ body {
   text-align: left;
   color: var(--additional-color);
 }
+.footer-link-address:hover,
+.footer-link-address:focus {
+    color: var(--hover-text-color);
+}
 .footer-link-mail {
   font-size: 14px;
   font-style: normal;
@@ -207,6 +211,10 @@ body {
   text-align: left;
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-link-mail:hover,
+.footer-link-mail:focus {
+    color: var(--hover-text-color);
+}
 .footer-link-tel {
   font-size: 14px;
   font-style: normal;
@@ -214,6 +222,10 @@ body {
   letter-spacing: 0.03em;
   text-align: left;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-link-tel:hover,
+.footer-link-tel:focus {
+    color: var(--hover-text-color);
 }
 
 /*Portfolio*/

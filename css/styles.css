@@ -24,10 +24,20 @@ body {
   color: var(--color-text-primary);
   background-color: var(--header-background-color);
 }
-/*Header*/
-.header {
-  border: 1px solid #ececec;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+/*Header*/
 .link {
   text-decoration: none;
 }
@@ -38,15 +48,14 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19%;
+  line-height: 1.1;
   color: var(--logo-color);
   letter-spacing: 0.03em;
 }
 .nav-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.17%;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--color-text-primary);
 }
@@ -54,11 +63,16 @@ body {
 .nav-link:focus {
   color: var(--hover-text-color);
 }
+.current {
+  color: var(--hover-text-color);
+}
+.list {
+  list-style: none;
+}
 .contact-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.17%;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--color-text-secondary);
 }
@@ -80,7 +94,7 @@ body {
 .main-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36%;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--additional-color);
@@ -89,7 +103,7 @@ body {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88%;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   text-align: center;
   border-radius: 4px;
@@ -103,15 +117,15 @@ body {
   background-color: var(--main-button-hover);
 }
 /*2 section*/
-.title-features {
-  font-size: 14px;
-  line-height: 1.14;
+.visually-hidden {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  text-align: center;
   color: var(--color-text-primary);
 }
 .features-subtitle {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17%;
@@ -120,9 +134,8 @@ body {
   color: var(--color-text-primary);
 }
 .features-text {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71%;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--color-text-secondary);
 }
@@ -131,7 +144,7 @@ body {
 .img-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--color-text-primary);
@@ -147,7 +160,7 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--color-text-primary);
@@ -155,15 +168,14 @@ body {
 .team-subtitle {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.17%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--color-text-primary);
 }
 .team-text {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.17%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--color-text-secondary);
@@ -181,23 +193,40 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--additional-color);
   letter-spacing: 0.03em;
+  color: var(--additional-color);
 }
-.footer-link {
-  font-weight: 400;
+.footer-link-address {
   font-size: 14px;
-  line-height: 1.71%;
+  font-style: normal;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--additional-color);
 }
+.footer-link-mail {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link-tel {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.6);
+}
 
 /*Portfolio*/
 .button-item {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.63%;
+  line-height: 1.63;
   letter-spacing: 0.03em;
   text-align: center;
   border-radius: 4px;
@@ -217,15 +246,14 @@ body {
 .subtitle {
   font-weight: 700;
   font-size: 18px;
-  line-height: 2%;
+  line-height: 2;
   letter-spacing: 0.06em;
   text-align: left;
   color: var(--color-text-primary);
 }
 .text {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.88%;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--color-text-secondary);

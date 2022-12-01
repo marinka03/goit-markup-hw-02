@@ -20,19 +20,19 @@
         <a class="link nav-logo-link" href="/"
           ><span class="logo">Web</span>Studio</a
         >
-        <ul class="nav-list">
+        <ul class="list nav-list">
           <li class="nav-item">
             <a class="link nav-link" href="./index.html">Студія</a>
           </li>
           <li class="nav-item">
-            <a class="link nav-link" href="#Портфоліо">Портфоліо</a>
+            <a class="link nav-link current" href="#Портфоліо">Портфоліо</a>
           </li>
           <li class="nav-item">
             <a class="link nav-link" href="#Контакти">Контакти</a>
           </li>
         </ul>
       </nav>
-      <ul class="contact">
+      <ul class="list contact">
         <li class="contact-item">
           <a class="link contact-link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
@@ -46,110 +46,118 @@
       </ul>
     </header>
     <main class="main">
-      <ul class="list-button">
-        <li class="list-button-item">
-          <button class="button-item" type="button">Усі</button>
-        </li>
-        <li class="list-button-item">
-          <button class="button-item" type="button">Веб-сайти</button>
-        </li>
-        <li class="list-button-item">
-          <button class="button-item" type="button">Додатки</button>
-        </li>
-        <li class="list-button-item">
-          <button class="button-item" type="button">Дизайн</button>
-        </li>
-        <li class="list-button-item">
-          <button class="button-item" type="button">Маркетинг</button>
-        </li>
-      </ul>
-      <ul class="list-photo">
-        <li class="list-photo-item">
-          <img
-            src="./images/website.jpg"
-            alt="Веб-сайт"
-            width="370"
-            height="294"
-          />
-          <h3 class="subtitle">Технокряк</h3>
-          <p class="text">Веб-сайт</p>
-        </li>
-        <li class="list-photo-item">
-          <img
-            src="./images/basketball_poster.jpg"
-            alt="Постер на якому двоє хлопців грають в баскетбол"
-            width="370"
-            height="294"
-          />
-          <h3 class="subtitle">Постер New Orlean vs Golden Star</h3>
-          <p class="text">Дизайн</p>
-        </li>
-        <li class="list-photo-item">
-          <img
-            src="./images/seafood.jpg"
-            alt="Малюнок риби та написано: Ресторан Seafood"
-            width="370"
-            height="294"
-          />
-          <h3 class="subtitle">Ресторан Seafood</h3>
-          <p class="text">Додаток</p>
-        </li>
-        <li class="list-photo-item">
-          <img
-            src="./images/headphone.jpg"
-            alt="Навушники"
-            width="370"
-            height="294"
-          />
-          <h3 class="subtitle">Проєкт Prime</h3>
-          <p class="text">Маркетинг</p>
-        </li>
-        <li class="list-photo-item">
-          <img
-            src="./images/boxes.jpg"
-            alt="Дві коробки"
-            width="370"
-            height="294"
-          />
-          <h3 class="subtitle">Проєкт Boxes</h3>
-          <p class="text">Додаток</p>
-        </li>
-        <li class="list-photo-item">
-          <img
-            src="./images/website_dark_background.jpg"
-            alt="Веб-сайт з темним фоном"
-            width="370"
-            height="294"
-          />
-          <h3 class="subtitle">Inspiration has no Borders</h3>
-          <p class="text">Веб-сайт</p>
-        </li>
-        <li class="list-photo-item">
-          <img
-            src="./images/magazine.jpg"
-            alt="Журнал"
-            width="370"
-            height="294"
-          />
-          <h3 class="subtitle">Видання Limited Edition</h3>
-          <p class="text">Дизайн</p>
-        </li>
-        <li class="list-photo-item">
-          <img src="./images/label.jpg" alt="Ярлик" width="370" height="294" />
-          <h3 class="subtitle">Проєкт LAB</h3>
-          <p class="text">Маркетинг</p>
-        </li>
-        <li class="list-photo-item">
-          <img
-            src="./images/laptop.jpg"
-            alt="Ноутбук"
-            width="370"
-            height="294"
-          />
-          <h3 class="subtitle">Growing Business</h3>
-          <p class="text">Додаток</p>
-        </li>
-      </ul>
+      <section class="portfolio-section">
+        <h1 class="visually-hidden">Портфоліо</h1>
+        <ul class="list list-button">
+          <li class="list-button-item">
+            <button class="button-item" type="button">Усі</button>
+          </li>
+          <li class="list-button-item">
+            <button class="button-item" type="button">Веб-сайти</button>
+          </li>
+          <li class="list-button-item">
+            <button class="button-item" type="button">Додатки</button>
+          </li>
+          <li class="list-button-item">
+            <button class="button-item" type="button">Дизайн</button>
+          </li>
+          <li class="list-button-item">
+            <button class="button-item" type="button">Маркетинг</button>
+          </li>
+        </ul>
+        <ul class="list list-photo">
+          <li class="list-photo-item">
+            <img
+              src="./images/website.jpg"
+              alt="Веб-сайт"
+              width="370"
+              height="294"
+            />
+            <h2 class="subtitle">Технокряк</h2>
+            <p class="text">Веб-сайт</p>
+          </li>
+          <li class="list-photo-item">
+            <img
+              src="./images/basketball_poster.jpg"
+              alt="Постер на якому двоє хлопців грають в баскетбол"
+              width="370"
+              height="294"
+            />
+            <h2 class="subtitle">Постер New Orlean vs Golden Star</h2>
+            <p class="text">Дизайн</p>
+          </li>
+          <li class="list-photo-item">
+            <img
+              src="./images/seafood.jpg"
+              alt="Малюнок риби та написано: Ресторан Seafood"
+              width="370"
+              height="294"
+            />
+            <h2 class="subtitle">Ресторан Seafood</h2>
+            <p class="text">Додаток</p>
+          </li>
+          <li class="list-photo-item">
+            <img
+              src="./images/headphone.jpg"
+              alt="Навушники"
+              width="370"
+              height="294"
+            />
+            <h2 class="subtitle">Проєкт Prime</h2>
+            <p class="text">Маркетинг</p>
+          </li>
+          <li class="list-photo-item">
+            <img
+              src="./images/boxes.jpg"
+              alt="Дві коробки"
+              width="370"
+              height="294"
+            />
+            <h2 class="subtitle">Проєкт Boxes</h2>
+            <p class="text">Додаток</p>
+          </li>
+          <li class="list-photo-item">
+            <img
+              src="./images/website_dark_background.jpg"
+              alt="Веб-сайт з темним фоном"
+              width="370"
+              height="294"
+            />
+            <h2 class="subtitle">Inspiration has no Borders</h2>
+            <p class="text">Веб-сайт</p>
+          </li>
+          <li class="list-photo-item">
+            <img
+              src="./images/magazine.jpg"
+              alt="Журнал"
+              width="370"
+              height="294"
+            />
+            <h2 class="subtitle">Видання Limited Edition</h2>
+            <p class="text">Дизайн</p>
+          </li>
+          <li class="list-photo-item">
+            <img
+              src="./images/label.jpg"
+              alt="Ярлик"
+              width="370"
+              height="294"
+            />
+            <h2 class="subtitle">Проєкт LAB</h2>
+            <p class="text">Маркетинг</p>
+          </li>
+          <li class="list-photo-item">
+            <img
+              src="./images/laptop.jpg"
+              alt="Ноутбук"
+              width="370"
+              height="294"
+            />
+            <h2 class="subtitle">Growing Business</h2>
+            <p class="text">Додаток</p>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer class="footer">
       <a class="link footer-logo-link" href="/">
@@ -159,18 +167,18 @@
         <ul class="list footer-list">
           <li class="footer-item">
             <a
-              class="link footer-link"
+              class="link footer-link-address"
               href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
           <li class="footer-item">
-            <a class="link footer-link" href="mailto:info@devstudio.com"
+            <a class="link footer-link-mail" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li class="footer-item">
-            <a class="link footer-link" href="tel:+380961111111"
+            <a class="link footer-link-tel" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
           </li>

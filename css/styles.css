@@ -123,15 +123,13 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--color-text-primary);
 }
 .features-subtitle {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.17%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color-text-primary);
 }
 .features-text {
   font-size: 14px;
@@ -147,7 +145,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--color-text-primary);
 }
 
 /*4 section*/
@@ -163,7 +160,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--color-text-primary);
 }
 .team-subtitle {
   font-weight: 500;
@@ -171,7 +167,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--color-text-primary);
 }
 .team-text {
   font-size: 16px;
@@ -243,7 +238,7 @@ body {
 .main {
   background-color: var(--header-background-color);
 }
-.subtitle {
+.subtitle-portfolio{
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
